@@ -1,0 +1,419 @@
+/* ==========================================
+   SH GLOBAL TECHNOLOGY
+   SHGT-v2.0 Professional Website CSS
+========================================== */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body{
+
+    background:#f5f7fb;
+    color:#222;
+
+}
+
+
+
+/* ================= HEADER ================= */
+
+
+header{
+
+    background:#0b3d91;
+    color:white;
+    padding:15px 5%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    flex-wrap:wrap;
+
+}
+
+
+.logo-area{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+}
+
+
+.logo-area img{
+
+    width:70px;
+    height:70px;
+    object-fit:contain;
+
+}
+
+
+.logo-area h1{
+
+    font-size:25px;
+
+}
+
+
+.logo-area p{
+
+    font-size:14px;
+
+}
+
+
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+
+    margin:0 10px;
+
+    font-weight:bold;
+
+}
+
+
+nav a:hover{
+
+    color:#ffd700;
+
+}
+
+
+
+/* ================= HERO ================= */
+
+
+.hero{
+
+    background:linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ),
+    url("../images/machines/juki-ddl9000c.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    text-align:center;
+
+    color:white;
+
+    padding:80px 20px;
+
+}
+
+
+.hero h2{
+
+    font-size:38px;
+    margin-bottom:20px;
+
+}
+
+
+.hero p{
+
+    font-size:20px;
+    margin-bottom:25px;
+
+}
+
+
+
+.btn{
+
+    display:inline-block;
+
+    background:#0b3d91;
+
+    color:white;
+
+    padding:12px 25px;
+
+    margin:5px;
+
+    border-radius:5px;
+
+    text-decoration:none;
+
+}
+
+
+.btn:hover{
+
+    background:#06275c;
+
+}
+
+
+
+.whatsapp{
+
+    background:#25D366;
+
+}
+
+
+.whatsapp:hover{
+
+    background:#128C7E;
+
+}
+
+
+
+
+/* ================= SEARCH ================= */
+
+
+.search-box{
+
+    text-align:center;
+
+    padding:40px 20px;
+
+}
+
+
+
+.search-box input{
+
+    width:80%;
+
+    max-width:500px;
+
+    padding:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+    font-size:16px;
+
+}
+
+
+
+/* ================= BRAND BUTTON ================= */
+
+
+.brand-filter{
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+
+
+.brand-filter button{
+
+    background:#0b3d91;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 18px;
+
+    margin:5px;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+
+.brand-filter button:hover{
+
+    background:#06275c;
+
+}
+
+
+
+
+/* ================= PRODUCT ================= */
+
+
+.title{
+
+    text-align:center;
+
+    margin:30px;
+
+}
+
+
+
+.product-container{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap:20px;
+
+    padding:20px 5%;
+
+}
+
+
+
+.product-card{
+
+    background:white;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+
+    text-align:center;
+
+}
+
+
+
+.product-card img{
+
+    width:100%;
+
+    height:200px;
+
+    object-fit:contain;
+
+}
+
+
+
+.product-card h3{
+
+    color:#0b3d91;
+
+    margin:10px;
+
+}
+
+
+
+.product-card a{
+
+    display:inline-block;
+
+    background:#0b3d91;
+
+    color:white;
+
+    padding:8px 15px;
+
+    text-decoration:none;
+
+    border-radius:5px;
+
+}
+
+
+
+/* ================= ABOUT ================= */
+
+
+.about{
+
+    background:white;
+
+    margin:30px 5%;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    line-height:1.7;
+
+}
+
+
+
+
+/* ================= FOOTER ================= */
+
+
+footer{
+
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px 10px;
+
+    margin-top:30px;
+
+}
+
+
+footer p{
+
+    margin:8px;
+
+}
+
+
+
+
+/* ================= MOBILE ================= */
+
+
+@media(max-width:768px){
+
+
+header{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+nav{
+
+    margin-top:15px;
+
+}
+
+
+.hero h2{
+
+    font-size:28px;
+
+}
+
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+
+}
