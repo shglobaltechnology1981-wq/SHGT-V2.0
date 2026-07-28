@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SHGT Admin Product Upload</title>
+
+
+<link rel="stylesheet" href="../css/style.css">
+
+<link rel="stylesheet" href="../css/responsive.css">
+
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+</head>
+
+
+<body>
+
+
+<!-- ==========================
+     ADMIN HEADER
+=========================== -->
+
+
+<header class="navbar">
+
+<div class="container nav-container">
+
+
+<a href="dashboard.html" class="logo">
+
+<img src="../images/logo.png"
+alt="SHGT Logo">
+
+</a>
+
+
+<h3>
+
+Admin Product Upload
+
+</h3>
+
+
+<a href="dashboard.html"
+class="btn btn-primary">
+
+Dashboard
+
+</a>
+
+
+</div>
+
+</header>
+
+
+
+<!-- ==========================
+     UPLOAD FORM
+=========================== -->
+
+
+<section class="admin-upload">
+
+
+<div class="container">
+
+
+<div class="upload-box">
+
+
+<h2>
+
+Add New Product
+
+</h2>
+
+
+
+<!-- Product Model -->
+
+<input type="text"
+id="model"
+placeholder="Machine Model Name">
+
+
+<!-- Brand -->
+
+<select id="brand">
+
+<option value="">
+
+Select Brand
+
+</option>
+
+<option value="JUKI">
+
+JUKI
+
+</option>
+
+
+<option value="Brother">
+
+Brother
+
+</option>
+
+
+<option value="Pegasus">
+
+Pegasus
+
+</option>
+
+
+<option value="Siruba">
+
+Siruba
+
+</option>
+
+
+<option value="Jack">
+
+Jack
+
+</option>
+
+
+<option value="SHGT Service">
+
+SHGT Service
+
+</option>
+
+
+</select>
+
+
+
+<!-- Price -->
+
+<input type="text"
+id="price"
+placeholder="Price / Contact">
+
+
+
+
+<!-- Description -->
+
+
+<textarea id="description"
+placeholder="Product Description"></textarea>
+
+
+
+
+<!-- Specification -->
+
+
+<textarea id="specification"
+placeholder="Specification (Separate by comma)"></textarea>
+
+
+
+
+<!-- Image -->
+
+
+<label>
+
+Product Image
+
+</label>
+
+
+<input type="file"
+id="productImage"
+accept="image/*">
+
+
+
+<!-- Upload Button -->
+
+
+<button id="uploadBtn"
+class="btn btn-primary">
+
+Upload Product
+
+</button>
+
+
+
+<p id="uploadMessage"></p>
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- ==========================
+     JAVASCRIPT
+=========================== -->
+
+
+<script type="module"
+src="admin.js"></script>
+
+
+
+</body>
+
+</html>
