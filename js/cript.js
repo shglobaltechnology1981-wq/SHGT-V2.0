@@ -178,3 +178,5 @@ displayProducts(result);
 
 
 }
+
+window.filterBrand = filterBrand;
