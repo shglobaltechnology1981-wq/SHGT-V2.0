@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "JUKI DDL-9000C",
+    "brand": "JUKI",
+    "image": "images/machines/juki-ddl9000c.jpg",
+    "description": "Direct Drive Industrial Lockstitch Sewing Machine"
+  },
+
+  {
+    "id": 2,
+    "name": "JUKI MO-6800S",
+    "brand": "JUKI",
+    "image": "images/machines/juki-overlock.jpg",
+    "description": "Industrial Overlock Sewing Machine"
+  },
+
+  {
+    "id": 3,
+    "name": "Brother S-7300A",
+    "brand": "Brother",
+    "image": "images/machines/brother-s7300a.jpg",
+    "description": "Electronic Industrial Sewing Machine"
+  },
+
+  {
+    "id": 4,
+    "name": "Pegasus M952",
+    "brand": "Pegasus",
+    "image": "images/machines/pegasus-m952.jpg",
+    "description": "High Speed Overlock Machine"
+  },
+
+  {
+    "id": 5,
+    "name": "SHGT Machine Service",
+    "brand": "SHGT Service",
+    "image": "images/machines/service.jpg",
+    "description": "Industrial Sewing Machine Maintenance Service"
+  }
+]
